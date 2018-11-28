@@ -1,0 +1,62 @@
+#Projects {
+  background-color: #e2f877;
+  padding-bottom: 50px;
+}
+
+#Projects .description a {
+  color: #55650a;
+  font-weight: bold;
+}
+
+#Projects .clayton {
+  width: 110%;
+  position: relative;
+  top: -110px;
+}
+
+.project {
+  padding: 7px;
+  margin-top: 15px;
+}
+
+.project img {
+  width: 100%;
+  border: solid 2px #55650a;
+}
+
+.description {
+  padding-top: 5px;
+}
+
+.small-header {
+  font-weight: bold;
+}
+
+.button-holder {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.git-button,
+.link-button {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  text-decoration: none;
+  font-family: "acre";
+  margin: 10px;
+  padding: 10px 0px;
+  font-weight: 100;
+}
+
+.git-button {
+  border: solid 4px #55650a;
+  color: #55650a;
+}
+
+.link-button {
+  border: solid 4px #55650a;
+  background-color: #55650a;
+  color: #f7ffd1;
+}

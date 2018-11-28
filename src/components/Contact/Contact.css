@@ -1,0 +1,31 @@
+#Contact {
+  background-color: #130a00;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+#Contact .info div {
+  color: #f1e9e6;
+  font-family: "acre", sans-serif;
+  font-size: 22px;
+  padding-top: 10px;
+}
+
+#Contact .clayton {
+  align-self: center;
+  padding-bottom: 20px;
+}
+
+#Contact .info {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+#Contact button {
+  width: 80%;
+  margin: auto;
+  max-width: 300px;
+}

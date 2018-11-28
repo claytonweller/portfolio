@@ -1,0 +1,29 @@
+#About {
+  background-color: #ffde7a;
+  padding-bottom: 120px;
+}
+
+#About a {
+  color: #887027;
+  font-weight: bold;
+}
+
+#About .folder-box {
+  padding-bottom: 100px;
+}
+
+#About .holder {
+  display: flex;
+  flex-flow: column;
+}
+
+#About .picture-holder {
+  position: relative;
+  width: 100%;
+}
+
+#About .clayton {
+  width: 110%;
+  position: absolute;
+  top: -100px;
+}

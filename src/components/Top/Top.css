@@ -1,0 +1,51 @@
+#Top {
+  background-color: #130a00;
+  color: #f1e9e6;
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+}
+
+.initials,
+.big-name {
+  display: none;
+}
+
+.top-holder {
+  display: flex;
+  width: 100%;
+  flex-flow: column;
+  align-items: center;
+  padding: 10px;
+  height: 40vh;
+  justify-content: space-around;
+}
+
+.wide-name {
+  margin: 30px;
+  align-self: center;
+  width: 100%;
+  max-width: 335px;
+  display: inline-block;
+  justify-self: center;
+}
+
+.contact-button {
+  display: inline-block;
+  width: 70%;
+  max-width: 250px;
+  border: #e2f877 4px solid;
+  color: #e2f877;
+}
+
+#Top .picture-holder {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+}
+
+#Top .clayton {
+  height: 130%;
+  position: absolute;
+  left: -25vh;
+}
