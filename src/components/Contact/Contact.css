@@ -3,13 +3,7 @@
   width: 100%;
   display: flex;
   flex-flow: column;
-}
-
-#Contact .info div {
-  color: #f1e9e6;
-  font-family: "acre", sans-serif;
-  font-size: 22px;
-  padding-top: 10px;
+  overflow: hidden;
 }
 
 #Contact .clayton {
@@ -24,8 +18,47 @@
   padding-bottom: 20px;
 }
 
+#Contact .info div {
+  color: #f1e9e6;
+  font-family: "acre", sans-serif;
+  font-size: 22px;
+  padding-top: 10px;
+}
+
 #Contact button {
   width: 80%;
   margin: auto;
   max-width: 300px;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 500px) {
+  #Contact {
+    flex-flow: row;
+    justify-content: flex-end;
+    height: 250px;
+  }
+  #Contact .clayton {
+    position: relative;
+    max-width: 35%;
+    top: -30px;
+    align-self: flex-start;
+  }
+
+  #Contact .info {
+    padding: 30px;
+    padding-left: 50px;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+
+  #Contact .info div {
+    font-size: 18px;
+  }
+
+  #Contact button {
+    font-size: 22px;
+    width: 100%;
+    margin: 0;
+  }
 }

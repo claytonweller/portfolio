@@ -60,3 +60,38 @@
   background-color: #55650a;
   color: #f7ffd1;
 }
+
+@media only screen and (min-width: 650px) {
+  .project-heading {
+    width: fit-content;
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+  }
+
+  .project-holder {
+    padding: 20px;
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .project-heading {
+    width: fit-content;
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+  }
+
+  .project-holder {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+
+  #Projects .project {
+    width: 31%;
+    padding: 15px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+}

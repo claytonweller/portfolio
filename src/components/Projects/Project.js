@@ -8,21 +8,24 @@ export default function Project({ proj, bgColor }) {
 
   return (
     <div style={{ backgroundColor: bgColor }} className="project">
-      <a href={proj.liveLink} target="_blank" rel="noopener noreferrer">
-        <img src={proj.imgUrl} alt={proj.title} />
-      </a>
-      <div className="description">
-        <span className="small-header">What It Does:</span> {proj.description}
-      </div>
-      <br />
       <div>
-        <span className="small-header">Tech Used -</span> <ul>{techList}</ul>
+        <a href={proj.liveLink} target="_blank" rel="noopener noreferrer">
+          <img src={proj.imgUrl} alt={proj.title} />
+        </a>
+        <div className="description">
+          <span className="small-header">What It Does:</span> {proj.description}
+        </div>
+        <br />
+        <div>
+          <span className="small-header">Tech Used -</span> <ul>{techList}</ul>
+        </div>
+
+        <div>
+          <span className="small-header">Apis -</span>
+          <ul>{apiList}</ul>
+        </div>
       </div>
 
-      <div>
-        <span className="small-header">Apis -</span>
-        <ul>{apiList}</ul>
-      </div>
       <div className="button-holder">
         <a
           className="git-button"

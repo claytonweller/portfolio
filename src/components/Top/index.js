@@ -25,20 +25,24 @@ export default function Top() {
           Contact
         </button>
       </div>
-      <div className="picture-holder">
-        <img
-          src={require("../../assets/claytonHeader.png")}
-          alt="Clayton is smiling at you. He's wearing a glasse, a hat, and a button up shirt. He's got a beard."
-          className="clayton"
-        />
-      </div>
+      <div className="wide-holder">
+        <div className="picture-holder">
+          <img
+            src={require("../../assets/claytonHeader.png")}
+            alt="Clayton is smiling at you. He's wearing a glasse, a hat, and a button up shirt. He's got a beard."
+            className="clayton"
+          />
+        </div>
 
-      {/* This should only display if wide */}
-      <img
-        src={require("../../assets/Full-Name.png")}
-        alt="Clayton Weller"
-        className="big-name"
-      />
+        {/* This should only display if wide */}
+        <div className="name-holder">
+          <img
+            src={require("../../assets/Full-Name.png")}
+            alt="Clayton Weller"
+            className="big-name"
+          />
+        </div>
+      </div>
     </div>
   );
 }

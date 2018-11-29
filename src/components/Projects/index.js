@@ -17,11 +17,14 @@ export default function Projects() {
         WHAT?
       </Tab>
       <div>
-        <div className="folder-box" style={{ backgroundColor: boxColor }}>
+        <div
+          className="folder-box project-heading"
+          style={{ backgroundColor: boxColor }}
+        >
           <h2>Portfolio</h2>
           <p>Check out some of the coding projects I’ve created.</p>
         </div>
-        <div>{projects}</div>
+        <div className="project-holder">{projects}</div>
       </div>
     </div>
   );
