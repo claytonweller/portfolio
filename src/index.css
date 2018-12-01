@@ -90,10 +90,6 @@ div {
 }
 
 @media only screen and (min-width: 700px) {
-  h2 {
-    font-size: 80px;
-  }
-
   .folder {
     padding-top: 40px;
   }
