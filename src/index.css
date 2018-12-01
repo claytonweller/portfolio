@@ -22,6 +22,18 @@ body {
   overflow: hidden;
 }
 
+button:focus,
+a:focus {
+  outline-width: thick;
+  outline-offset: 4px;
+  outline: 4px solid rgba(0, 35, 90, 0.733);
+}
+
+button:focus,
+button:hover {
+  transform: scale(1.1);
+}
+
 button {
   font-family: "acre", sans-serif;
   text-transform: uppercase;
@@ -30,6 +42,12 @@ button {
   color: #e2f877;
   padding: 15px 0px;
   font-size: 34px;
+  transition-duration: 500ms;
+}
+
+button:hover,
+button:focus {
+  cursor: pointer;
 }
 
 h1,
@@ -53,10 +71,18 @@ div {
   font-size: 16px;
 }
 
+.spacer {
+  position: relative;
+  height: 100vh;
+}
+
 .folder {
   filter: drop-shadow(0px -3px 1px rgba(0, 0, 0, 0.25));
   padding: 10px;
-  padding-top: 20px;
+  padding-top: 60px;
+  position: relative;
+  top: 0px;
+  /* min-height: 100vh; */
 }
 
 .folder-box {
@@ -69,6 +95,6 @@ div {
   }
 
   .folder {
-    padding-top: 60px;
+    padding-top: 40px;
   }
 }

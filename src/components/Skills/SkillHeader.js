@@ -10,6 +10,9 @@ export default function Skills() {
         className="bars"
       />
       <h1>SKILLS!</h1>
+
+      {/* The second set of decorative bars only show up
+        when the app is wide */}
       <img
         src={require("../../assets/Bars.png")}
         alt="Some more aesthetic bars"

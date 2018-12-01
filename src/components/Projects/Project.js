@@ -1,5 +1,7 @@
 import React from "react";
 
+// These are created in the index.js element of /Projects
+
 export default function Project({ proj, bgColor }) {
   let techList = proj.techList.map(tech => (
     <li key={proj.title + tech}>{tech}</li>

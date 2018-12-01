@@ -2,7 +2,6 @@
   background-color: #ffde7a;
   padding-bottom: 120px;
   position: relative;
-  /* top: 100vh; */
 }
 
 #About a {
@@ -32,7 +31,7 @@
 
 @media only screen and (min-width: 650px) {
   #About {
-    padding-bottom: 40px;
+    padding-bottom: 120px;
   }
 
   #About .holder {

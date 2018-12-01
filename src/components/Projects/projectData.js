@@ -1,5 +1,7 @@
 import React from "react";
 
+// This is the info about each of my portfolio projects
+
 const projectData = [
   {
     imgUrl: require("../../assets/WorkWithArtists.png"),

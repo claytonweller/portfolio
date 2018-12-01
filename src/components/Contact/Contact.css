@@ -4,6 +4,7 @@
   display: flex;
   flex-flow: column;
   overflow: hidden;
+  position: relative;
 }
 
 #Contact .clayton {
@@ -25,11 +26,31 @@
   padding-top: 10px;
 }
 
-#Contact button {
+#Contact a {
+  color: #f1e9e6;
+  padding-top: 15px;
+}
+
+#Contact .bottom-button {
+  font-family: "acre", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0);
+  border: 4px #e2f877 solid;
+  color: #e2f877;
+  padding: 15px 0px;
+  font-size: 20px;
   width: 80%;
   margin: auto;
   max-width: 300px;
   display: inline-block;
+  transition-duration: 150ms;
+}
+
+#Contact .bottom-button:hover,
+#Contact .bottom-button:focus {
+  transform: scale(1.1);
 }
 
 @media only screen and (min-width: 500px) {
