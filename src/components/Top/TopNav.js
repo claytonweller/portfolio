@@ -30,7 +30,6 @@ export default function TopNav() {
       <button
         className="contact-button"
         onClick={e => {
-          console.log("BOops");
           e.preventDefault();
           window.scrollTo({
             top: document.body.scrollHeight - 500,
