@@ -1,44 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Clayton Weller's Portfolio Page
 
-## Available Scripts
+Live Site - www.claytonweller.com
 
-In the project directory, you can run:
+## Contact
 
-### `npm start`
+Want to work with me?
+Clayton.weller @ gmail.com
+303.803.4589
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## About Me
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Hi! I’m Clayton Weller. I’m a smart coder, savvy business person, and a funny guy. I love using a variety of tools to solve problems. In undergrad I got a double major in Physics and Theater. I’ve been a CMO of an animation software company (Freak’n Genius - 2011-2013). I used tech startup methodology to create and run a comedy club/theater (Pocket Theater - ‘13-’17).
 
-### `npm test`
+When it comes to technology I’m most interested in using the power of programatic language to give users new verbs: using code to empower people to do new amazing things. Code is pretty much the magic of our time and I love being a mondern day techno wizard!
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+When I’m not making cross-disciplinary businesses, I teach comedy writing workshops, go camping / backpacking, and play games (video, board, party... love them all!)
 
-### `npm run build`
+## Technology Used
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+React
+HTML5/CSS
+ES6
+Netlify
