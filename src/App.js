@@ -22,7 +22,7 @@ class App extends Component {
        and a button for zipping to the contact seciton*/}
         <TopNav />
         <Top />
-        <div className="spacer" />
+        <div style={{ zIndex: -1 }} className="spacer" />
 
         {/* ABOUT - Is for my bio */}
         <Tab id="About" vOffset={90} color={"#ffde7a"} textColor={"#887027"}>
