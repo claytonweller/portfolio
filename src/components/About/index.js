@@ -35,9 +35,9 @@ export default function About() {
           </p>
           <p>
             When it comes to technology I’m most interested in using the power
-            of programatic language to give users new verbs: using code to
+            of programmatic language to give users new verbs: using code to
             empower people to do new amazing things. Code is pretty much the
-            magic of our time and I love being a mondern day{" "}
+            magic of our time and I love being a modern day{" "}
             <span style={{ fontWeight: "bold" }}>techno wizard</span>!
           </p>
           <p>
