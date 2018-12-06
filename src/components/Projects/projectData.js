@@ -17,7 +17,7 @@ const projectData = [
         >
           Work With Artists
         </a>{" "}
-        is like OKcupid, but instead of a wierd date, you find people to make
+        is like OKcupid, but instead of a weird date, you find people to make
         cool art projects with!
       </span>
     ),
@@ -68,7 +68,7 @@ const projectData = [
     title: "RNDMTWTR",
     description: (
       <span>
-        The world doesn't make sense any more. So why should YOU have to? With{" "}
+        The world doesn't make sense anymore. So why should YOU have to? With{" "}
         <a
           href="https://claytonweller.github.io/RNDMTWTR/"
           target="_blank"

@@ -14,7 +14,7 @@ export default function Skills() {
           "React / Redux",
           "CSS (flexbox, responsive)",
           "Semantic HTML5",
-          "A11y accessibillity"
+          "A11y accessibility"
         ]}
       />
       <SkillSection

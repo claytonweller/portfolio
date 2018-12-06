@@ -11,7 +11,7 @@ export default function Skills() {
         heading="Audio / Visual"
         list={[
           "Adobe Photoshop",
-          "Adobe Premier",
+          "Adobe Premiere",
           "Videography",
           "Audio Editing"
         ]}
@@ -20,9 +20,9 @@ export default function Skills() {
         heading="Marketing"
         list={[
           "Market Research",
-          "Copy writing",
+          "Copywriting",
           "Project Management",
-          "Product Developement"
+          "Product Development"
         ]}
       />
       <SkillSection
@@ -32,7 +32,7 @@ export default function Skills() {
           "Teaching (Ages 2 -72)",
           "Script Writing",
           "Make people feel good",
-          "Can navigate beurocracy while maintaining positive attitude!"
+          "Can navigate bureaucracy while maintaining positive attitude!"
         ]}
       />
     </div>
