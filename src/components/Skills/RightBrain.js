@@ -31,8 +31,8 @@ export default function Skills() {
           "Agile / Lean methodologies",
           "Teaching (Ages 2 -72)",
           "Script Writing",
-          "Make people feel good",
-          "Can navigate bureaucracy while maintaining positive attitude!"
+          "Motivational interviewing",
+          "Can navigate bureaucracy while maintaining a positive attitude!"
         ]}
       />
     </div>

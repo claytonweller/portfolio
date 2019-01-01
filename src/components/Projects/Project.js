@@ -7,6 +7,20 @@ export default function Project({ proj, bgColor }) {
     <li key={proj.title + tech}>{tech}</li>
   ));
   let apiList = proj.apiList.map(api => <li key={proj.title + api}>{api}</li>);
+  let credentials = () => {
+    if (proj.credentials) {
+      return (
+        <div>
+          <div className="small-header">Guest Credentials</div>
+          <ul>
+            <li>email: {proj.credentials.email}</li>
+            <li>pw: {proj.credentials.password}</li>
+          </ul>
+        </div>
+      );
+    }
+    return null;
+  };
 
   return (
     <div style={{ backgroundColor: bgColor }} className="project">
@@ -27,6 +41,7 @@ export default function Project({ proj, bgColor }) {
           <ul>{apiList}</ul>
         </div>
       </div>
+      {credentials()}
 
       <div className="button-holder">
         <a

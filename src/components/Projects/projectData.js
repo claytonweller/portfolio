@@ -29,9 +29,13 @@ const projectData = [
       "Mocha/Chai",
       "Heroku / Travis CI"
     ],
-    apiList: ["Sendgrid"],
+    apiList: ["Sendgrid", "Cloudinary"],
     liveLink: "http://www.workwithartists.com",
-    repoLink: "https://github.com/claytonweller/WWA-front"
+    repoLink: "https://github.com/claytonweller/WWA-front",
+    credentials: {
+      email: "vip@claytonweller.com",
+      password: "wonderfulday"
+    }
   },
   {
     imgUrl: require("../../assets/SpeedBack.png"),
@@ -61,7 +65,11 @@ const projectData = [
     ],
     apiList: ["twilio"],
     liveLink: "http://spdbck.herokuapp.com/",
-    repoLink: "https://github.com/claytonweller/speedback"
+    repoLink: "https://github.com/claytonweller/speedback",
+    credentials: {
+      email: "vip@claytonweller.com",
+      password: "wonderfulday"
+    }
   },
   {
     imgUrl: require("../../assets/rndmtwtr.png"),
