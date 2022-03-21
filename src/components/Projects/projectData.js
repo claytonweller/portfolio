@@ -2,6 +2,16 @@ import React from "react";
 
 // This is the info about each of my portfolio projects
 
+const makeLink = (url, text) => (
+  <a
+    href={url}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    {text}
+  </a>
+)
+
 const projectData = [
   {
     imgUrl: require("../../assets/contraction.png"),
@@ -10,13 +20,7 @@ const projectData = [
     description: (
       <span>
         A web app for expecting families to easily measure contractions and know when to go to the hospital/birth center.{" "}
-        <a
-          href="http://contraction.claytonweller.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Contraction Tracker
-        </a>{" "}
+        {makeLink('http://contraction.claytonweller.com', 'Contraction Tracker')}{' '}
         shows how labor is progressing, and will alert you when you've hit "go-time".
       </span>
     ),
@@ -39,15 +43,13 @@ const projectData = [
     title: "DataGameShowShow",
     description: (
       <span>
-        A framework for creating a live interactive game show. In{" "}
-        <a
-          href="https://github.com/claytonweller/DGSS-maestro"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          DataGameShowShow
-        </a>{" "}
-        every audience member's smart phone operates as a remote control. Actions dispatched by audience members and a host are all managed by a websocket state controller.
+        A framework for creating a live interactive game show. In <b>DataGameShowShow</b>{' '}
+        every audience member's smart phone operates as a remote control. Actions {''}
+        {makeLink('https://github.com/claytonweller/DGSS-crowd', 'audience members')}{' '}
+        and a {''}
+        {makeLink('https://github.com/claytonweller/DGSS-control', 'gameshow MC')}{' '}
+        are all managed by a {''}
+        {makeLink('https://github.com/claytonweller/DGSS-maestro', 'websocket state controller')}.
       </span>
     ),
     techList: [
@@ -70,13 +72,7 @@ const projectData = [
       <span>
         A searchable artist database for people looking for collaborators to
         work on creative projects.{" "}
-        <a
-          href="https://github.com/claytonweller/WWA-front"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Work With Artists
-        </a>{" "}
+        {makeLink('https://github.com/claytonweller/WWA-front', 'Work With Artists')}{' '}
         was like OKcupid, but instead of a weird date, you found people to make
         cool art projects with!
       </span>
