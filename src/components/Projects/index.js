@@ -21,7 +21,7 @@ export default function Projects() {
           style={{ backgroundColor: boxColor }}
         >
           <h2>Portfolio</h2>
-          <p>Check out some of the coding projects I’ve created.</p>
+          <p>Here are some of the things I've created when left to my own devices.</p>
         </div>
         <div className="project-holder">{projects}</div>
       </div>

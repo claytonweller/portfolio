@@ -11,8 +11,7 @@ export default function About() {
           <h2>About Me</h2>
           <p>
             Hi! I'm <span style={{ fontWeight: "bold" }}>Clayton Weller</span>.
-            I'm a smart coder, savvy business person, and a funny guy. I love
-            using a variety of tools to solve problems. On top of working as a
+            I'm a smart coder, savvy business person, and a funny guy. On top of working as a
             full-time web developer for <b>over 4 years</b>: I have a
             double major in Physics and Theater, I was a founder of an animation
             software company (
@@ -37,8 +36,8 @@ export default function About() {
           <p>
             When it comes to technology, I love solving <b>immediate, real business problems. </b>
             I personally identify as a backend developer with a focus on api
-            integrations, and scalability. But that doesn't mean that I can't cobble
-            together a client facing application if I have to. Mostly, I just derive great
+            integrations, and scalability <i>(but I can definitely cobble
+              together a client facing application if I have to)</i>. Mostly, I just derive great
             joy from efficiently connecting together different data sources in interesting ways.
           </p>
           <p>

@@ -8,34 +8,41 @@ export default function Skills() {
       <h2>Left Brain</h2>
       <p>Here are my analytical and technical proficiencies -</p>
       <SkillSection
-        heading="Front End"
+        heading="Favorites"
         list={[
-          "Javascript ES6",
-          "React / Redux",
-          "CSS (flexbox, responsive)",
-          "Semantic HTML5",
-          "A11y accessibility"
-        ]}
-      />
-      <SkillSection
-        heading="Back End"
-        list={[
+          "Typescript / Javascript",
           "Node.js",
-          "noSQL databases (postgres)",
-          "Relational databases (mongo)",
-          "npm",
-          "Express / REST APIs"
+          "noSQL databases (dynamo, mongo)",
+          "Relational databases (postgreSQL)",
+          "Express",
+          "AWS - Lambda, ApiGateway, S3",
+          "Serverless framework",
+          "React",
+          "Jest / Mocha",
+          "Git version control",
+          "SPREADSHEETS!"
         ]}
       />
       <SkillSection
-        heading="Odds & Ends"
+        heading="APIs I've worked with"
         list={[
-          "Physics / Calculus",
-          "Continuous Integration",
-          "Excel / Spreadsheets",
-          "Git Version Control",
-          "Command Line Interface",
-          "Serious problems solver"
+          "Sendgrid",
+          "Google Docs",
+          "Twitter",
+          "Twilio",
+          "Hotel Specific: Expedia, Priceline, Sabre, Getaroom, Hotelbeds"
+        ]}
+      />
+      <SkillSection
+        heading="Dabbled"
+        list={[
+          "Ruby / Rails",
+          "GraphQL",
+          "Machine Learning",
+          "Python",
+          "Arduino",
+          'D3',
+          'Redux',
         ]}
       />
     </div>
