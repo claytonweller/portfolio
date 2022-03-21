@@ -3,11 +3,11 @@ import React from "react";
 // These are created in the index.js element of /Projects
 
 export default function Project({ proj, bgColor }) {
-  let techList = proj.techList.map(tech => (
+  const techList = proj.techList.map(tech => (
     <li key={proj.title + tech}>{tech}</li>
   ));
-  let apiList = proj.apiList.map(api => <li key={proj.title + api}>{api}</li>);
-  let credentials = () => {
+  const apiList = proj.apiList.map(api => <li key={proj.title + api}>{api}</li>);
+  const createCredentials = () => {
     if (proj.credentials) {
       return (
         <div>
@@ -22,14 +22,28 @@ export default function Project({ proj, bgColor }) {
     return null;
   };
 
+  const liveButton = proj.active
+    ? (<a
+      className="link-button"
+      href={proj.liveLink}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      LIVE APP
+    </a>)
+    : '';
+
+  const primaryLink = proj.liveLink || proj.repoLink
+  const descriptionHeader = proj.active ? 'What It Does: ' : 'What It Did: '
+
   return (
     <div style={{ backgroundColor: bgColor }} className="project">
       <div>
-        <a href={proj.liveLink} target="_blank" rel="noopener noreferrer">
+        <a href={primaryLink} target="_blank" rel="noopener noreferrer">
           <img src={proj.imgUrl} alt={proj.title} />
         </a>
         <div className="description">
-          <span className="small-header">What It Does:</span> {proj.description}
+          <span className="small-header">{descriptionHeader}</span> {proj.description}
         </div>
         <br />
         <div>
@@ -41,8 +55,7 @@ export default function Project({ proj, bgColor }) {
           <ul>{apiList}</ul>
         </div>
       </div>
-      {credentials()}
-
+      {createCredentials()}
       <div className="button-holder">
         <a
           className="git-button"
@@ -52,14 +65,7 @@ export default function Project({ proj, bgColor }) {
         >
           GITHUB
         </a>
-        <a
-          className="link-button"
-          href={proj.liveLink}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LIVE APP
-        </a>
+        {liveButton}
       </div>
     </div>
   );

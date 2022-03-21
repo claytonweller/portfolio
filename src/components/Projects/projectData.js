@@ -4,20 +4,80 @@ import React from "react";
 
 const projectData = [
   {
+    imgUrl: require("../../assets/contraction.png"),
+    active: true,
+    title: "Contraction Tracker",
+    description: (
+      <span>
+        A web app for expecting families to easily measure contractions and know when to go to the hospital/birth center.{" "}
+        <a
+          href="http://contraction.claytonweller.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Contraction Tracker
+        </a>{" "}
+        shows how labor is progressing, and will alert you when you've hit "go-time".
+      </span>
+    ),
+    techList: [
+      "React",
+      "D3",
+      "Node.js",
+      "Typescript",
+      "AWS: Lamba, S3, Dynamo, Api-gateway",
+      "Jest / Zod",
+      "Serverless framework"
+    ],
+    apiList: ["AWS-SDK"],
+    liveLink: "http://contraction.claytonweller.com",
+    repoLink: "https://github.com/claytonweller/contraction-tracker",
+  },
+  {
+    imgUrl: require("../../assets/DGSS.png"),
+    active: false,
+    title: "DataGameShowShow",
+    description: (
+      <span>
+        A framework for creating a live interactive game show. In{" "}
+        <a
+          href="https://github.com/claytonweller/DGSS-maestro"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          DataGameShowShow
+        </a>{" "}
+        every audience member's smart phone operates as a remote control. Actions dispatched by audience members and a host are all managed by a websocket state controller.
+      </span>
+    ),
+    techList: [
+      "React",
+      "Websockets",
+      "Node.js",
+      "Typescript",
+      "PostgreSQL / pg",
+      "AWS: Lamba, RDS, Api-gateway, Amplify",
+      "Serverless framework"
+    ],
+    apiList: ["AWS-SDK"],
+    repoLink: "https://github.com/claytonweller/DGSS-maestro",
+  },
+  {
     imgUrl: require("../../assets/WorkWithArtists.png"),
+    active: false,
     title: "Work With Artists",
     description: (
       <span>
         A searchable artist database for people looking for collaborators to
         work on creative projects.{" "}
         <a
-          href="http://www.workwithartists.com"
+          href="https://github.com/claytonweller/WWA-front"
           target="_blank"
           rel="noopener noreferrer"
         >
           Work With Artists
         </a>{" "}
-        is like OKcupid, but instead of a weird date, you find people to make
+        was like OKcupid, but instead of a weird date, you found people to make
         cool art projects with!
       </span>
     ),
@@ -30,74 +90,8 @@ const projectData = [
       "Heroku / Travis CI"
     ],
     apiList: ["Sendgrid", "Cloudinary"],
-    liveLink: "http://www.workwithartists.com",
-    repoLink: "https://github.com/claytonweller/WWA-front",
-    credentials: {
-      email: "vip@claytonweller.com",
-      password: "wonderfulday"
-    }
+    repoLink: "https://github.com/claytonweller/WWA-front"
   },
-  {
-    imgUrl: require("../../assets/SpeedBack.png"),
-    title: "SpeedBack",
-    description: (
-      <span>
-        In the tech world data is king, but live events are struggling to
-        collect feedback from attendees.{" "}
-        <a
-          href="http://spdbck.herokuapp.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          SpeedBack
-        </a>{" "}
-        helps comedy shows, concerts, workshops, and conferences get immediate
-        feedback.
-      </span>
-    ),
-    techList: [
-      "Node.js / Express",
-      "jQuery",
-      "JWT / Passport / Bcrypt",
-      "Heroku / Travis CI",
-      "Mongo DB/Mongoose",
-      "Mocha/Chai"
-    ],
-    apiList: ["twilio"],
-    liveLink: "http://spdbck.herokuapp.com/",
-    repoLink: "https://github.com/claytonweller/speedback",
-    credentials: {
-      email: "vip@claytonweller.com",
-      password: "wonderfulday"
-    }
-  },
-  {
-    imgUrl: require("../../assets/rndmtwtr.png"),
-    title: "RNDMTWTR",
-    description: (
-      <span>
-        The world doesn't make sense anymore. So why should YOU have to? With{" "}
-        <a
-          href="https://claytonweller.github.io/RNDMTWTR/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          RNDMTWTR
-        </a>{" "}
-        you have a limitless supply of incomprehensible (and hilarious) tweets!
-      </span>
-    ),
-    techList: ["jQuery", "Node.js / Express", "HTML / CSS", "Heroku"],
-    apiList: [
-      "Wikipedia",
-      "Giphy",
-      "NewsAPI",
-      "Twitter Intents",
-      "Twitter Search"
-    ],
-    liveLink: "https://claytonweller.github.io/RNDMTWTR/",
-    repoLink: "https://github.com/claytonweller/RNDMTWTR"
-  }
 ];
 
 export default projectData;
