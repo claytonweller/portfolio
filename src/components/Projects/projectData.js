@@ -44,7 +44,7 @@ const projectData = [
     description: (
       <span>
         A framework for creating a live interactive game show. In <b>DataGameShowShow</b>{' '}
-        every audience member's smart phone operates as a remote control. Actions {''}
+        every audience member's smart phone operates as a remote control. Actions from {''}
         {makeLink('https://github.com/claytonweller/DGSS-crowd', 'audience members')}{' '}
         and a {''}
         {makeLink('https://github.com/claytonweller/DGSS-control', 'gameshow MC')}{' '}
