@@ -1,6 +1,6 @@
 # Clayton Weller's Portfolio Page
 
-Live Site - http://www.claytonweller.com
+Live Site - http://claytonweller.com/
 
 ## Contact
 
