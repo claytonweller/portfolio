@@ -12,7 +12,7 @@ Want to work with me?
 
 Hi! I'm Clayton Weller. I'm a smart coder, savvy business person, and a funny guy. I love
 using a variety of tools to solve problems. On top of working as a
-full-time web developer for over 4 years: I have a
+full-time web developer for over 5 years: I have a
 double major in Physics and Theater, I was a founder of an animation
 software company Freak'n Genius (2011-2013), and I used tech startup methodology to create and run a
 comedy club/theater ('13-'17).
