@@ -1,9 +1,14 @@
 import React from "react";
 import "./About.css";
 
-// This is my Bio. Pretty straigt forward.
+// This is my Bio. Pretty straight forward.
+
+const startedAsWebDev = new Date('2019-01-01')
+const difMs = Date.now() - startedAsWebDev
+const yearsCoding = Math.floor(difMs / (1000 * 60 * 60 * 24 *365.35 ))
 
 export default function About() {
+  console.warn(yearsCoding)
   return (
     <section id="About" className="folder">
       <div className="holder">
@@ -12,8 +17,8 @@ export default function About() {
           <p>
             Hi! I'm <span style={{ fontWeight: "bold" }}>Clayton Weller</span>.
             I'm a smart coder, savvy business person, and a funny guy. On top of working as a
-            full-time web developer for <b>over 4 years</b>: I have a
-            double major in Physics and Theater, I was a founder of an animation
+            full-time web developer for <b>over {yearsCoding} years</b>: I have a
+            double major in Physics and Theater, was a founder of an animation
             software company (
             <a
               href="https://www.geekwire.com/2012/spurning-acquisition-offer-freakn-genius-raises-525000-angel/"
@@ -22,10 +27,10 @@ export default function About() {
             >
               Freak'n Genius
             </a>{" "}
-            - 2011-2013), and I used tech startup methodology to create and run a
+            - '11-'13), and used tech startup methodology to create and run a
             comedy club/theater (
             <a
-              href="https://thepocket.org"
+              href="https://www.kickstarter.com/projects/1365853422/the-pocket-theater-seattle-needs-a-place-to-perfor"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -39,6 +44,8 @@ export default function About() {
             integrations, and scalability <i>(but I can definitely cobble
               together a client facing application if I have to)</i>. Mostly, I just derive great
             joy from efficiently connecting together different data sources in interesting ways.
+            I have worked at both B2C and B2B companies at scale, creating and maintaining 
+            infrastructure serving millions of users.
           </p>
           <p>
             When I'm not making cross-disciplinary businesses, I teach comedy
