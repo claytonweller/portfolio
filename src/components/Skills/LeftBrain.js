@@ -12,11 +12,14 @@ export default function Skills() {
         list={[
           "Typescript / Javascript",
           "Node.js",
-          "noSQL databases (dynamo, mongo)",
+          "AWS - Lambda, ApiGateway, S3, SQS, SNS",
+          "OpenApi",
+          "Python",
+          "noSQL databases (dynamoDB, mongo)",
           "Relational databases (postgreSQL)",
           "Express",
-          "AWS - Lambda, ApiGateway, S3",
-          "Serverless framework",
+          "CI/CD",
+          "Infrastructure as code",
           "React",
           "Jest / Mocha",
           "Git version control",
@@ -30,7 +33,12 @@ export default function Skills() {
           "Google Docs",
           "Twitter",
           "Twilio",
-          "Hotel Specific: Expedia, Priceline, Sabre, Getaroom, Hotelbeds"
+          "Hotel Specific: Expedia, Priceline, Sabre, Getaroom, Hotelbeds",
+          "Greenhouse",
+          "Typesense",
+          "Clickhouse",
+          "Slack",
+          "Discord"
         ]}
       />
       <SkillSection
@@ -39,10 +47,10 @@ export default function Skills() {
           "Ruby / Rails",
           "GraphQL",
           "Machine Learning",
-          "Python",
           "Arduino",
           'D3',
           'Redux',
+          "Cloudflare"
         ]}
       />
     </div>

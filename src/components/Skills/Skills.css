@@ -23,6 +23,14 @@
   font-weight: bold;
 }
 
+#Skills ul {
+  list-style: disc;
+}
+
+#Skills li::marker {
+  color: #ffb796
+}
+
 #Skills .folder-box {
   background-color: #ffeee7;
   margin-bottom: 10px;

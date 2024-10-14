@@ -15,12 +15,16 @@ export default function Skills() {
           "Copywriting",
           "Fundraising",
           "Messaging",
+          "Technical documentation"
         ]}
       />
       <SkillSection
         heading="Management"
         list={[
           "Training and delegation",
+          "Hiring",
+          "Code Review",
+          "Mentoring / training",
           "Agile / Lean methodologies",
           "Realistic Scheulding",
           "Motivational interviewing",
