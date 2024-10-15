@@ -34,7 +34,6 @@ const projectData = [
       "Serverless framework"
     ],
     apiList: ["AWS-SDK"],
-    liveLink: "http://contraction.claytonweller.com",
     repoLink: "https://github.com/claytonweller/contraction-tracker",
   },
   {
