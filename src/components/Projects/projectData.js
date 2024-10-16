@@ -15,12 +15,12 @@ const makeLink = (url, text) => (
 const projectData = [
   {
     imgUrl: require("../../assets/contraction.png"),
-    active: true,
+    active: false,
     title: "Contraction Tracker",
     description: (
       <span>
         A web app for expecting families to easily measure contractions and know when to go to the hospital/birth center.{" "}
-        {makeLink('http://contraction.claytonweller.com', 'Contraction Tracker')}{' '}
+        {makeLink('https://github.com/claytonweller/contraction-tracker', 'Contraction Tracker')}{' '}
         shows how labor is progressing, and will alert you when you've hit "go-time".
       </span>
     ),

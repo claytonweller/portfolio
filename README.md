@@ -32,5 +32,5 @@ board, party... love them all!)
 ## Technology Used
 
 React
-HTML5/CSS
+HTML5/CSSx
 ES6
