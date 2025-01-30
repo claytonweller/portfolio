@@ -39,13 +39,14 @@ export default function About() {
             - '13-'17).
           </p>
           <p>
-            When it comes to technology, I love solving <b>immediate, real business problems. </b>
-            I personally identify as a backend developer with a focus on api
-            integrations, and scalability <i>(but I can definitely cobble
-              together a client facing application if I have to)</i>. Mostly, I just derive great
-            joy from efficiently connecting together different data sources in interesting ways.
-            I have worked at both B2C and B2B companies at scale, creating and maintaining 
-            infrastructure serving millions of users.
+          When it comes to technology, <b>I love solving immediate, real business problems.</b> 
+          I personally identify as a full stack web developer with a lean toward the backend. 
+          My focus has historically been on scalable microservices, integrations, APIs, and 
+          data pipelines. Mostly, I just derive great joy from efficiently connecting together 
+          different data sources in interesting ways. I have worked at both B2C and B2B companies 
+          at scale, creating and maintaining infrastructure serving millions of users. 
+          At previous employers I’ve been in charge of creating robust analytics pipelines, 
+          managing sensitive financial data, and optimizing core search operations.
           </p>
           <p>
             When I'm not making cross-disciplinary businesses, I teach comedy
