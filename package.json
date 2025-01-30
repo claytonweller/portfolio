@@ -13,7 +13,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "updateCloudfront": "aws cloudfront create-invalidation --distribution-id ESV801HVZJXFT --paths \"/*\"",
-    "deploy": "yarn build && aws s3 sync build/ s3://claytonweller.com --acl public-read && yarn updateCloudfront"
+    "uploadToS3": "aws s3 sync build/ s3://claytonweller.com --acl public-read",
+    "deploy": "yarn build && yarn uploadToS3 && yarn updateCloudfront"
   },
   "eslintConfig": {
     "extends": "react-app"
