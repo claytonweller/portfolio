@@ -15,7 +15,7 @@ const makeLink = (url, text) => (
 const projectData = [
   {
     imgUrl: require("../../assets/contraction.png"),
-    active: true,
+    active: false,
     title: "Contraction Tracker",
     description: (
       <span>
@@ -34,7 +34,6 @@ const projectData = [
       "Serverless framework"
     ],
     apiList: ["AWS-SDK"],
-    liveLink: 'https://contraction.claytonweller.com/',
     repoLink: "https://github.com/claytonweller/contraction-tracker",
   },
   {
